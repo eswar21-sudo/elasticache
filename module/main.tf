@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "us-east-1"  # Change to your AWS region
+}
+
 # Create Security group 
 resource "aws_security_group" "redis_sg" {
   name_prefix = "redis-sg-"
