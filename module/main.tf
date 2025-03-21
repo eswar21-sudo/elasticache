@@ -1,6 +1,4 @@
-provider "aws" {
-  region = "var.aws_region"  # Change to your AWS region
-}
+
 
 # Create Security group 
 resource "aws_security_group" "redis_sg" {
